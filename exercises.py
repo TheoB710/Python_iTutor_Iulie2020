@@ -76,15 +76,23 @@ def add_two_numbers(a, b):
         - functiile trebuie sa fie usor de inteles, sa aiba nume sugestive, la fel si variabilele, cand vom ajunge acolo
 '''
 def subtract_numbers(a, b):
-    pass # remove this line when done
+    #pass # remove this line when done
     # TODO: implement subtraction
+    return a - b
 
 def multiply_numbers(a, b):
-    pass # remove this line when done
+    #pass # remove this line when done
     # TODO: implement multiplication
+    return a * b
 
-# TODO: implement division
-# TODO: implement power
+def divide_numbers(a, b):
+    # TODO: implement division
+    return a / b
+
+def square_up(a, b=2):
+    # TODO: implement power
+    return a ** b
+
 
 if __name__ == '__main__':
     # folosind functia print(argument), putem printa orice in consola.
@@ -108,6 +116,7 @@ if __name__ == '__main__':
     # in momentul de fata, in result, avem textul intors de functia noastra, hai sa il printam.
     # avand in vedere ca variabila noastra, result, poate fi folosita ca si parametru al unei functii
     # ce functie credeti ca ar trebui sa folosim ca sa printam result?
+    print(result)
     # TODO: inlocuiti aceasta linie cu apelul functiei potrivite
 
     # haideti sa folosim si functia care aduna cele doua numere si sa printam rezultatul direct
